@@ -1,0 +1,116 @@
+html,body{
+    height:100%;
+    width:100%;
+    background-color: rgb(119, 113, 113);
+}
+body{
+    padding:0;
+    margin:0;
+}
+#head{
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+.name{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.tagline{
+    font-family: cursive;
+    font-size: 15px;
+}
+.head1{
+    font-size: 60px;
+    text-align: right;
+    padding-right: 370px;
+    padding-top: 20px;
+    
+}
+.head2{
+    text-align: center;
+    padding-left:400px;
+    font-size: 60px;
+    text-align: right;
+    padding-right: 370px;
+    padding-top: 20px;
+}
+
+#about{
+    display: flex;
+}
+.child{
+    flex:1;
+    padding:20px;
+    margin:10px;
+}
+.child:nth-child(2){
+    flex-grow: 5;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    border:none;
+    border-radius: 50%;
+    padding-top: 0;
+}
+
+.container{
+    width:420px;
+    padding:50px 0;
+    border-radius:8px;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 172px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 500;
+    color:black;
+    text-align: center;
+    padding-left: 100px;
+    padding-top:30px;
+    display:flex;
+}
+
+.circular-progress{
+    position: relative;
+    height:250px;
+    width:250px;
+    background:conic-gradient(#7d2ae8 3.6deg,#ededed 0deg);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content:"";
+    position:absolute;
+    height:210px;
+    width:210px;
+    border-radius: 50%;
+    background-color: black;
+}
+.progress-value{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    color:#7d2ae8;
+}
+.contact{
+    font-size: 20px;
+    padding-left:12px;
+}
+.contact:div{
+    padding:25px;
+    
+}
+.details{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+}

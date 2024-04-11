@@ -1,0 +1,105 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: rgb(164, 237, 228);
+}
+.bar{
+    display:flex;
+    justify-content:flex-end;
+    gap:45px;
+    background-color: rgb(37, 23, 23);
+    color:white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.logo{
+    width:170px;
+    height:120px;
+    padding:20px;
+    margin-left: 5px;
+    border-radius: 5px;
+    
+}
+input{
+    margin-top:50px;
+    margin-left: 50px;
+    border-radius: 4px;
+    height:30px;
+    width:375px;
+    font-family: cursive;
+}
+.welcome{
+    color:black;
+    font-size: 60px;
+    font-family:cursive;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.bassi{
+    color:blACK;
+    
+    font-size: 95px;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.ticket{
+    color:black;
+    margin-top: -5px;
+    margin-left:100px;
+    background-color:rgb(164, 237, 228);
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    border-radius: 18px;
+    border-width: 3px;
+}
+.intro{
+    text-align: end;
+    font-size: 25px;
+    margin-top: 3px;
+}
+.aboutme{
+    display:flex;
+    margin-top: 50px;
+}
+.about{
+    flex:1;
+    padding:20px;
+    margin:10px;
+    border:3px solid black;
+    border-radius: 20px;
+}
+.about:nth-child(2){
+    flex-grow: 7;
+}
+#imp{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#imp1{
+    font-size: 20px;
+}
+.flexxy{
+    display:flex;
+}
+.child{
+    flex:1;
+    padding:20px;
+    margin:10px;
+}
+.child:nth-child(2){
+    flex-grow: 1;
+}
+.pic{
+    height:350px;
+    width:120px;
+    padding:20px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
